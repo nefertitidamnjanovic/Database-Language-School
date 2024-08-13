@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F088D3ED-6CDC-743C-89E8-A88892FC568E" name="Skolarina">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>5D613B85-1A37-5646-058F-C5D0C995D8F9</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_s" id="0381AFC6-2295-00A0-CE01-5B4BF4F68079">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>61320FF1-8649-5DD8-0542-1CF28F4C5E63</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_s" id="26F1FCB0-80FB-DA3B-DBC4-5F00EFD06C87">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>2D5E2DC3-034C-D393-45D0-0CABB12D63FF</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,2,9</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_s" id="039F9B08-BC95-6026-ADC8-F7875A77C85F">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>704C8E59-5382-DE45-B66F-AA945DA47176</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stat_s" id="A9BA68C4-A4DF-56E0-F0A4-41FB7DA4ED5B">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>487DA0B6-61D0-6523-F86A-CBEA0799C8A4</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brrata_s" id="C535DE41-A425-4056-E1FD-272D7A9F6748">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>304444CD-66A5-655C-F44A-5D04099BF9F8</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,0,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ucenik_id_u" id="ACA166A7-B679-1F6A-3D68-8546D69D1C6D">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>2BDEB4E8-2DD1-A86E-7006-53017B7458B6</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3653F7D-CD79-FD10-2C15-8EB24D1FE664" referredColumn="FAD64AC8-6319-78F4-C066-FE414D2E07D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3076F86F-F553-7046-43B3-5BBD6B9C774E" name="Skolarina_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>5C858E4D-326D-99C0-6D61-8F7A40C87CA7</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0381AFC6-2295-00A0-CE01-5B4BF4F68079"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2905D9F0-3352-6BC5-EBE6-C1C092EC27AB" name="Skolarina_Ucenik_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>D795AFD2-C227-291F-E314-25A4DF47D083</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACA166A7-B679-1F6A-3D68-8546D69D1C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

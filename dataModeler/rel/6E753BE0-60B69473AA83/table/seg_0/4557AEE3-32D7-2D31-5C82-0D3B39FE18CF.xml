@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4557AEE3-32D7-2D31-5C82-0D3B39FE18CF" name="Nastavnik">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>9873D42C-3E53-AC41-9B39-D56BFDCC6FE5</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_n" id="85C4F6FF-969B-5892-A496-BC9CB20F8870">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>3E73E2EB-7B50-3C30-4D56-A085322A5596</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_n" id="10178577-8370-7043-E60D-3A52C5697D42">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>8544196D-AF83-5F60-14A2-4DAF0D447BA3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prz_n" id="661A4E0F-68E6-DB2D-B40A-DF08D5A9BDAE">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>3D19F359-7BFB-970F-9D9F-ACD4608110C5</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_n" id="EC029FC4-37FD-BA10-236C-7B067C645307">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>29B95328-608D-98F4-4407-9F566D39C43C</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datrodj_n" id="821B3160-105B-C8F1-485C-D8D7AE553B63">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum rodjena nastavnika]]></commentInRDBMS>
+<generatorID>FC830941-5168-AF69-9169-9C04AB4E2940</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datzap_n" id="B3E5C17C-CF75-9B14-A431-BA989B958D96">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum zaposlenja nastavnika]]></commentInRDBMS>
+<generatorID>F01FE721-84AA-E37A-C6BF-6DB8994356CB</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brtel_n" id="4D64FA75-F2BC-FC9B-A120-164591072E12">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Broj telefona nastavnika]]></commentInRDBMS>
+<generatorID>40BFA3AF-F635-0CA5-B6DE-8FAD2FBBD8FB</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kval_n" id="4E211834-5C8A-10CB-65E9-16F133E79FFC">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Kvalifikacije nastavnika]]></commentInRDBMS>
+<generatorID>D23626A4-1F5D-33F6-BFD3-40C576A3E01A</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F970602-8533-C57D-2129-CB420FE4DD1D" name="Nastavnik_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>6C57FCBD-782F-8A30-9773-8EB4ED453EA6</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C4F6FF-969B-5892-A496-BC9CB20F8870"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

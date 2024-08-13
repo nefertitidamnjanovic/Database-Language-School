@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nadredjuje" directorySegmentName="seg_0" id="BACBDC51-302D-14F4-E847-B0FF8FC68301">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:15:46 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<targetPk>67555FE5-2542-D748-997E-D7087D205636</targetPk>
+<identifying>false</identifying>
+<nameOnTarget>id_nadr_n</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B16FF0D1-699F-A282-1237-0D9A2C0A3AA4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B16FF0D1-699F-A282-1237-0D9A2C0A3AA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

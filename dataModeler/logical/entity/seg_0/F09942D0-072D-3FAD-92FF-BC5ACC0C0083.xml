@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F09942D0-072D-3FAD-92FF-BC5ACC0C0083" name="Jezik">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:55:14 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>65C000C7-EFC6-31DA-0AE9-242A18B88FB9</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_j" id="127A1D9C-E36F-00A5-B96C-2FF75141D7CF">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:55:42 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naz_j" id="61A3CE32-CA32-FE82-E28C-FF0EA61CF373">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:55:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Naziv jezika]]></commentInRDBMS>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivo_j" id="65C000C7-EFC6-31DA-0AE9-242A18B88FB9">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:56:12 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>901D2D13-BB40-8807-4E5E-4D2C61D38D43</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lit_j" id="2848DDF1-BFE9-EB11-A592-120F7BEDA956">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:57:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Literatura i materijali za ucenje]]></commentInRDBMS>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brcas_j" id="2A798DC9-0E52-9FFA-8530-71EBBD947CC2">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:57:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Broj casova potreban za svaki nivo]]></commentInRDBMS>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_r" id="907B505A-D137-7707-E43B-9965102FCD9A">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:13:57 UTC</createdTime>
+<generatorID>DA35CCD1-BA43-7F4C-35F2-1A0745ABEA55</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<referedAttribute>DB8EFBD8-5CA9-DB02-EF17-887D9231CECA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C43EB46-2BAF-CEAD-60A0-B15E9DB9B1E9" name="Jezik PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:55:49 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>127A1D9C-E36F-00A5-B96C-2FF75141D7CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C57B78E-1727-1CF4-34C3-4A5CBCF0F7AB" name="Ocena">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:12:04 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dat_o" id="6B4BFC72-93A5-6731-7C4B-796D7BB88ED0">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:13:12 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocena_o" id="1DB32C53-1245-3A66-5034-EC86BBA950D5">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:13:50 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_o" id="57580E07-C226-0B09-13E6-3F5CD49B01EA">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:14:31 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_u" id="F5BA98AD-6FE9-1D1A-1D2B-B5A494144889">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:08:12 UTC</createdTime>
+<generatorID>E73A86E1-D447-FB4A-A3D2-490F3D36AF10</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<referedAttribute>754F6179-2909-A979-DC88-A6C4F6B172E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0AEA80FE-170B-8BAF-8FB1-D0D4C7C7D16A" name="Ocena PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:13:48 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B4BFC72-93A5-6731-7C4B-796D7BB88ED0</attributeRef>
+<attributeRef>F5BA98AD-6FE9-1D1A-1D2B-B5A494144889</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

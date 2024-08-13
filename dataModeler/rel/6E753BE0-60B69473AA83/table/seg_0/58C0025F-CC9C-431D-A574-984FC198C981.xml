@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58C0025F-CC9C-431D-A574-984FC198C981" name="Predaje">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>8321E01C-AA6C-43D7-517E-1A25A7CE708B</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cas_id_cas" id="44F0C75A-431C-38AE-BFEA-82730F7EB8DA">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>7EDF6A40-4234-8055-8170-137A42F58FEE</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16424C6F-0E5D-3554-D409-630029DA256B" referredColumn="89678B99-7CBB-291D-53DB-8EB727E20A2A"/>
+</associations>
+</Column>
+<Column name="Nastavnik_id_n" id="B79BFB50-B52F-AC41-C2E6-17CB1E2506C9">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>81752DC9-097A-AAA5-C73D-35461225A1DC</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="634B9DEA-2449-5D1B-3367-7E6B8DD444FB" referredColumn="85C4F6FF-969B-5892-A496-BC9CB20F8870"/>
+</associations>
+</Column>
+<Column name="Priprema_id_p" id="EBC3550A-2FA8-583A-FB72-47732641328A">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>428F409E-BB06-A26F-65D6-1AD4BB034E29</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7793DB7F-BDE4-2710-4832-DD27FDA648CD" referredColumn="6BF380B1-19A8-D13D-0766-4BCD413B875A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E04B5E5A-12FA-04C2-D2C3-239BC4A25EA1" name="Predaje_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>0B561EAC-0891-6BF2-0A0F-F91C85E1308E</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F0C75A-431C-38AE-BFEA-82730F7EB8DA"/>
+<colUsage columnID="B79BFB50-B52F-AC41-C2E6-17CB1E2506C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="893992F6-0A1E-5501-5A1A-35A352477ADB" name="Predaje_Cas_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>85ABF50E-195A-6EE7-98A4-E877D6D58BFB</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F0C75A-431C-38AE-BFEA-82730F7EB8DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82FCBB1E-0B74-59BD-33E2-D14146B49D21" name="Predaje_Nastavnik_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>2141A881-5C69-C1F1-739B-D92928CAC610</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B79BFB50-B52F-AC41-C2E6-17CB1E2506C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A57BA187-582A-FBA5-9C7A-09FCC8D853D5" name="Predaje_Priprema_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>818E2E76-FC70-3B23-F4A0-F504C22D677D</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBC3550A-2FA8-583A-FB72-47732641328A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

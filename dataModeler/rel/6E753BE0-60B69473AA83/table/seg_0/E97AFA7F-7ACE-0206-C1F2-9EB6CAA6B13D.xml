@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E97AFA7F-7ACE-0206-C1F2-9EB6CAA6B13D" name="Zna">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Jezik_id_j" id="8E13D324-EE94-2E57-BCF6-7F8A6DE63CF1">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56FF4CED-1441-36B0-001D-10608682C83C" referredColumn="FBEE46DE-590C-27A1-5142-9351272068E6"/>
+</associations>
+</Column>
+<Column name="Nastavnik_id_n" id="21CED315-0A83-6C24-42BD-7F1970C6BFE1">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9479DB-7318-F193-99FD-13D2B4A251E0" referredColumn="85C4F6FF-969B-5892-A496-BC9CB20F8870"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94378801-CF22-802A-D119-CD0981301A3A" name="Zna_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E13D324-EE94-2E57-BCF6-7F8A6DE63CF1"/>
+<colUsage columnID="21CED315-0A83-6C24-42BD-7F1970C6BFE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF79B282-DEE3-6AC0-C940-E1388301C4DE" name="Zna_Jezik_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>CC7C1EA2-BB37-5787-A503-2F015EE71094</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E13D324-EE94-2E57-BCF6-7F8A6DE63CF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DF2A9C7-ABEA-9AE0-CAD2-02024DBEA6EC" name="Zna_Nastavnik_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>CC7C1EA2-BB37-5787-A503-2F015EE71094</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21CED315-0A83-6C24-42BD-7F1970C6BFE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D97C9F39-0053-6344-1867-2579FA621944" containerWithKeyObject="DE0F5CE8-3A4E-7772-4526-AA18CACDCF8C" localFKIndex="B7A092CB-A257-0BAE-02B8-1C1077E28327" name="Jezik_RasporedCasova_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>DA35CCD1-BA43-7F4C-35F2-1A0745ABEA55</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<referredTableLongName>RasporedCasova</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BFCACAFC-2A0A-0015-712F-DC92F72375DC</referredTableID>
+<keyObject>7ED3325B-C5D7-58A3-F64B-63606671AC40</keyObject>
+<referredKeyID>7ED3325B-C5D7-58A3-F64B-63606671AC40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_r</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

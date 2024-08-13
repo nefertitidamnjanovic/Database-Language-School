@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pohadja" directorySegmentName="seg_0" id="5D55C2A0-1D26-F04F-7181-2D934B8A37C9">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:10:57 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C32D4C65-5596-1B45-1917-9E5194B63CE4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B16FF0D1-699F-A282-1237-0D9A2C0A3AA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

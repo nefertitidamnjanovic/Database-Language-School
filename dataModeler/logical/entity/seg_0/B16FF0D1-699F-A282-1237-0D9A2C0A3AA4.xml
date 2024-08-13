@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B16FF0D1-699F-A282-1237-0D9A2C0A3AA4" name="Cas">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:41:45 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cas" id="E4ED691B-8A26-CB0E-D725-EC3D2847B52E">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:41:58 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vreme_c" id="F1DE72DD-31BE-DFB5-1C00-478A6B98C5FB">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:42:46 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="traj_c" id="F899F6D3-96C4-517F-0EE0-FF3C54C1910C">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:43:16 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,0,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ucio_c" id="E1A1D1A6-2FEF-D6B1-1E1C-9507E2F2D161">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:43:39 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_r" id="14A3F8F9-EEB5-DBE9-85C9-19162CFF00D0">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:12:04 UTC</createdTime>
+<generatorID>097611BF-1AEE-6E93-7EEA-EFEFB12ACA44</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<referedAttribute>DB8EFBD8-5CA9-DB02-EF17-887D9231CECA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nadr_c" id="33687B2D-E4B0-EF30-1A09-0A2ED21CF63E">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:15:46 UTC</createdTime>
+<generatorID>BACBDC51-302D-14F4-E847-B0FF8FC68301</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E4ED691B-8A26-CB0E-D725-EC3D2847B52E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_j" id="A426F738-91EC-7AB8-D09A-21BB7A986F6F">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:18:50 UTC</createdTime>
+<generatorID>AA6B78CC-CABB-711C-6AAC-ACC258321F55</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<referedAttribute>127A1D9C-E36F-00A5-B96C-2FF75141D7CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67555FE5-2542-D748-997E-D7087D205636" name="Cas PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:42:43 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4ED691B-8A26-CB0E-D725-EC3D2847B52E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

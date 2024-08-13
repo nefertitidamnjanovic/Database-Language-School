@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7793DB7F-BDE4-2710-4832-DD27FDA648CD" containerWithKeyObject="58C0025F-CC9C-431D-A574-984FC198C981" localFKIndex="A57BA187-582A-FBA5-9C7A-09FCC8D853D5" name="Predaje_Priprema_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>818E2E76-FC70-3B23-F4A0-F504C22D677D</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<referredTableLongName>Priprema</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>185F77F1-832B-75B2-A0C9-5B7EB74B9E64</referredTableID>
+<keyObject>ABAE5F3D-1952-67E7-CEE9-5F5FC4BB6BCC</keyObject>
+<referredKeyID>ABAE5F3D-1952-67E7-CEE9-5F5FC4BB6BCC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_p</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

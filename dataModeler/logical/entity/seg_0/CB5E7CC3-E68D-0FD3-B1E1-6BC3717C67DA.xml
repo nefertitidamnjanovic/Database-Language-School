@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB5E7CC3-E68D-0FD3-B1E1-6BC3717C67DA" name="Priprema">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:53:39 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_p" id="2620190B-6440-92F5-06A5-CB19EC097388">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:53:48 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naz_p" id="4B06C93F-E10B-6034-97D7-631FD9C4B656">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:54:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Naziv lekcije]]></commentInRDBMS>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_p" id="CB605C51-6971-8E3A-03D5-3301AAFCBC42">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:54:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum pripreme]]></commentInRDBMS>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D2FC469-E850-0D2C-9872-795BCEFADCC0" name="Priprema PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 14:53:57 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2620190B-6440-92F5-06A5-CB19EC097388</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1860ACC1-A8D7-69C1-AAAB-D0DA924DAEF4" containerWithKeyObject="7CC85714-F632-A1D9-73D3-24E520D425A6" localFKIndex="1DED5C4B-1B63-B1FB-6F37-EA486594C2B2" name="Srednji_Jezik_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>E88E805A-8D3B-C025-8524-A9C33AD83398</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<referredTableLongName>Jezik</referredTableLongName>
+<arc>756BCA0E-7F08-E4F1-7887-94873F9F9CC6</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE0F5CE8-3A4E-7772-4526-AA18CACDCF8C</referredTableID>
+<keyObject>4C4E050D-532D-1CE1-D728-B7EDA816477E</keyObject>
+<referredKeyID>4C4E050D-532D-1CE1-D728-B7EDA816477E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_j</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Srednji</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

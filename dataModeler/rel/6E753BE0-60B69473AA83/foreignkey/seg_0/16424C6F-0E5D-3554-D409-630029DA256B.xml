@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="16424C6F-0E5D-3554-D409-630029DA256B" containerWithKeyObject="58C0025F-CC9C-431D-A574-984FC198C981" localFKIndex="893992F6-0A1E-5501-5A1A-35A352477ADB" name="Predaje_Cas_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>85ABF50E-195A-6EE7-98A4-E877D6D58BFB</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<referredTableLongName>Cas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73C1808B-84B4-B2E6-6F5F-AE700D4FA0A1</referredTableID>
+<keyObject>724A5104-0B1D-5CA6-F7FF-D39F5EDB77A7</keyObject>
+<referredKeyID>724A5104-0B1D-5CA6-F7FF-D39F5EDB77A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

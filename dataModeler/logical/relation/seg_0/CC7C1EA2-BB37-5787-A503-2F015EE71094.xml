@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zna" directorySegmentName="seg_0" id="CC7C1EA2-BB37-5787-A503-2F015EE71094">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:14:46 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F09942D0-072D-3FAD-92FF-BC5ACC0C0083</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9873D42C-3E53-AC41-9B39-D56BFDCC6FE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

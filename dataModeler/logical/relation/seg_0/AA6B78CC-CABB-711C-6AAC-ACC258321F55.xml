@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nastava" directorySegmentName="seg_0" id="AA6B78CC-CABB-711C-6AAC-ACC258321F55">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:18:21 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="6E753BE0-9C76-99AA-5E22-60B69473AA83" value="true"/>
+</engineerTo>
+<sourcePk>67555FE5-2542-D748-997E-D7087D205636</sourcePk>
+<targetPk>7C43EB46-2BAF-CEAD-60A0-B15E9DB9B1E9</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B16FF0D1-699F-A282-1237-0D9A2C0A3AA4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F09942D0-072D-3FAD-92FF-BC5ACC0C0083</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

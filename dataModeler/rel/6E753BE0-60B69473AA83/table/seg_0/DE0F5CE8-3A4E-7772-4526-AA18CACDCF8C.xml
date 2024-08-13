@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE0F5CE8-3A4E-7772-4526-AA18CACDCF8C" name="Jezik">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>F09942D0-072D-3FAD-92FF-BC5ACC0C0083</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_j" id="FBEE46DE-590C-27A1-5142-9351272068E6">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>127A1D9C-E36F-00A5-B96C-2FF75141D7CF</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naz_j" id="F8CB7061-5130-F640-E61E-823C0DE7F69F">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Naziv jezika]]></commentInRDBMS>
+<generatorID>61A3CE32-CA32-FE82-E28C-FF0EA61CF373</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivo_j" id="59994605-4658-B31F-3CE0-EB338EDF4F47">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>65C000C7-EFC6-31DA-0AE9-242A18B88FB9</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<constraintName>CH_INH_Jezik</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<domain>901D2D13-BB40-8807-4E5E-4D2C61D38D43</domain>
+<listOfValues>
+<valueDef value="Jezik" description="entity Jezik"/>
+<valueDef value="Osnovni" description="entity Osnovni"/>
+<valueDef value="Srednji" description="entity Srednji"/>
+</listOfValues>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="lit_j" id="FD5BC90A-950E-7674-99E6-ADA43CD953E5">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Literatura i materijali za ucenje]]></commentInRDBMS>
+<generatorID>2848DDF1-BFE9-EB11-A592-120F7BEDA956</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brcas_j" id="7D853D31-8E90-E4A5-5CDB-7CB36A8DFBA9">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Broj casova potreban za svaki nivo]]></commentInRDBMS>
+<generatorID>2A798DC9-0E52-9FFA-8530-71EBBD947CC2</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RasporedCasova_id_r" id="3E81C4DD-75D8-C65A-D24C-3D1FA89CB101">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>907B505A-D137-7707-E43B-9965102FCD9A</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D97C9F39-0053-6344-1867-2579FA621944" referredColumn="A7EC137C-B536-C546-8E4A-4CEBDAFC0CD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C4E050D-532D-1CE1-D728-B7EDA816477E" name="Jezik_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>7C43EB46-2BAF-CEAD-60A0-B15E9DB9B1E9</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBEE46DE-590C-27A1-5142-9351272068E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F6D6FE6-7083-3C3F-5643-8D0393D0CA20" name="Jezik__IDX">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DA35CCD1-BA43-7F4C-35F2-1A0745ABEA55</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3E81C4DD-75D8-C65A-D24C-3D1FA89CB101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7A092CB-A257-0BAE-02B8-1C1077E28327" name="Jezik_RasporedCasova_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-01-13 15:31:54 UTC</createdTime>
+<generatorID>DA35CCD1-BA43-7F4C-35F2-1A0745ABEA55</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E81C4DD-75D8-C65A-D24C-3D1FA89CB101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
